@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 public class Practice {
     public static void main(String[] args) {
 
-        int num1 = 25;
+        Scanner scanner = new Scanner(System.in);
+        int num1;
+        System.out.println("Enter a number: ");
+        num1 = scanner.nextInt();
 
         if (num1 < 20) {
             System.out.println("The number is less than 20");
